@@ -41,7 +41,7 @@ load_config() {
 
   info "Setting assets directory"
   # I've got a custom janky configuration
-  assets_path=assets
+  assets_path=.
   phoenix_ex=phx
 
   assets_dir=$phoenix_dir/$assets_path
